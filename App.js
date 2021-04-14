@@ -8,7 +8,7 @@ const museusURL = 'http://dados.recife.pe.gov.br/api/3/action/datastore_search?r
 export default function App() {
   const [nome, setNome] = useState('Dario');
   const [museus, setMuseus] = useState([]);
-  const [cor] = useState('#2b4f60');
+  const [cor] = useState('#2b4f50');
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
