@@ -6,7 +6,7 @@ import mapStyle from './mapconfig';
 const museusURL = 'http://dados.recife.pe.gov.br/api/3/action/datastore_search?resource_id=97ab18da-f940-43b1-b0d4-a9e93e90bed5&limit=5';
 
 export default function App() {
-  const [nome, setNome] = useState('Ikaro');
+  const [nome, setNome] = useState('Dario');
   const [museus, setMuseus] = useState([]);
   const [cor] = useState('#2b4f60');
   const [isLoading, setLoading] = useState(true);
